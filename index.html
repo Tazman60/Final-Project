@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Open Movies</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/11ad03859b.js"
+      crossorigin="anonymous"
+    ></script>
+    
+  </head>
+  <body>
+    <section id="landing">
+      <div class="flex flex-col" style="display: flex; flex: 1 1 0%">
+        <div class="navbar flex flex-col">
+          <div
+            class="flex content-wrapper justify-between align-center"
+            style="flex-direction: row; z-index: 1005"
+          >
+            <div class="logo">
+              <img
+                class="logo"
+                src="./assets/cinema-tickets-with-pop-corn-drink-amd-glasses_11720979.png"
+                alt=""
+              />
+            </div>
+            <div class="links flex align-center justify-between">
+              <a
+                href="/"
+                class="link nav__link--anchor link__hover-effect router-link-active"
+                >Home</a
+              >
+              <a
+                href="/findyourmovie"
+                class="link nav__link--anchor link__hover-effect router-link-exact-active router-link-active"
+                >Find your movie</a
+              >
+              <a href="" class="btn-contact">Contact</a>
+            </div>
+          </div>
+          <div
+            class="content-wrapper flex-col align-center"
+            style="margin-top: 40px"
+          >
+            <h1>Browse our movies</h1>
+            <div class="input-wrap">
+              <input type="text" placeholder="Search by Title or Keyword" />
+              <div class="search-wrapper flex justify-center align-center">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
+            </div>
+          </div>
+          <div class="overlay"></div>
+        </div>
+      </div>
+    </section>
+    <section id="search">
+      <div class="content-wrapper justify-between">
+        <h1 class="search-info">
+          <span class="black-txt">Search results:</span>
+        </h1>
+        <div class="price-filter flex flex-col">
+          <h2>
+            <span class="black-txt">Price range: </span>
+          </h2>
+        </div>
+      </div>
+      <div class="content-wrapper">
+        <div class="movie-list">
+          <div class="movie">
+            <div class="movie-card">
+              <div class="movie-card__container">
+                <h3>Title: Title</h3>
+                <p><b>Year:</b> 0000</p>
+                <p>
+                  <b>Poster:</b>
+                  <a href="https://website.website">website.website</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <script src="index.js"></script>
+      </div>
+    </section>
+  </body>
+  
+</html>

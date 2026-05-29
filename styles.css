@@ -255,3 +255,29 @@ a.btn-contact {
     display: flex;
     flex-wrap: wrap;
 }
+
+.movie-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie {
+    width: 50%;
+}
+
+.movie-card {
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 4x 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: 0.3s;
+    border-style: solid;
+    border-color: #ff328f;
+    border-width: 2px;
+    border-radius: 10px;
+}
+
+.movie-card__container {
+    padding: 8px 16px;
+}
